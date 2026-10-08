@@ -78,7 +78,7 @@ function sidebar(activeSlug, activeNav) {
 </details>`;
   }).join("\n");
   return `<aside>
-  <div class="brand"><a href="/"><img src="/assets/wordmark-white.svg" alt="MYS Designs"></a><p>Premium brand identity for ambitious businesses. Manchester, UK.</p></div>
+  <div class="brand"><a href="/"><img src="/assets/wordmark-white.svg" alt="MYS Designs"></a><p>${esc(S.tagline)}</p></div>
   <nav class="top"><a href="/" class="${activeNav === "work" ? "active" : ""}">Projects</a><a href="/contact/" class="${activeNav === "contact" ? "active" : ""}">Contact</a></nav>
   <div class="section-label">Projects</div>
   ${items}
@@ -117,7 +117,7 @@ function contactFragment() {
 }
 
 function footer() {
-  return `<footer><span>© MYS Designs</span><a href="mailto:${S.email}">${S.email}</a><span>Manchester, UK</span></footer>`;
+  return `<footer><span>© ${new Date().getFullYear()} ${esc(S.legalName)}</span><a href="mailto:${S.email}">${S.email}</a><span>Manchester, UK</span></footer>`;
 }
 
 function page({ title, description, canonical, ogImage, body, jsonld = null, activeSlug = "", activeNav = "work", mainHtml, fragments = null }) {
@@ -144,7 +144,7 @@ document.querySelectorAll("details[data-slug]").forEach(function(d){
 <link rel="canonical" href="${canonical}">
 <meta name="robots" content="max-image-preview:large">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="MYS Designs">
+<meta property="og:site_name" content="${esc(S.name)}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${canonical}">
