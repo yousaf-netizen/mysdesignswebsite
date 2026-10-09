@@ -1,0 +1,102 @@
+{
+  "studio": [
+    { "label": "Headquarter", "text": "MYS Designs is a branding agency for entrepreneurs and small businesses. We are based at 20 Metropolitan House, Brindley Rd, Manchester, M16 9HW. [Replace with your studio description.]" },
+    { "label": "People", "text": "[Add the team: names, roles, and a short line on what each person brings.]" },
+    { "label": "Locations", "text": "Manchester, United Kingdom. We work with clients across the UK and remotely. [Edit as needed.]" },
+    { "label": "Contact", "text": "worktogether@mysdesigns.co.uk" }
+  ],
+  "process": [
+    { "label": "D - Discovery", "text": "[Describe the research stage: the brief, the audience, the competitors, and the real problem to solve.]" },
+    { "label": "I - Inner World", "text": "[Describe positioning and messaging: the idea and personality behind the brand.]" },
+    { "label": "V - Visual World", "text": "[Describe the identity system: logo, colour, type, and imagery.]" },
+    { "label": "E - Execution", "text": "[Describe delivery: guidelines, file handover, and rollout across channels.]" }
+  ],
+  "panels": {
+    "studio": [
+      { "color": "#9643ff", "ratio": "16 / 10", "label": "Headquarter" },
+      { "color": "#d9c4ff", "ratio": "4 / 3" },
+      { "color": "#fefefe", "ratio": "16 / 9" }
+    ],
+    "process": [
+      { "color": "#9643ff", "ratio": "16 / 10" },
+      { "color": "#d9c4ff", "ratio": "4 / 3" },
+      { "color": "#3a3a3a", "ratio": "4 / 5" },
+      { "color": "#fefefe", "ratio": "16 / 9" }
+    ]
+  },
+  "projects": [
+    {
+      "slug": "rapid-transit",
+      "title": "Rapid Transit",
+      "caption": "New branding project - 2026, transport & logistics",
+      "client": "Rapid Transit",
+      "services": "Logo design, brand identity",
+      "year": "2026",
+      "color": "#9643ff",
+      "wall": [
+        { "color": "#9643ff", "ratio": "16 / 10" },
+        { "color": "#d9c4ff", "ratio": "4 / 5" },
+        { "color": "#1e1e1e", "ratio": "4 / 5" }
+      ],
+      "images": [
+        { "color": "#d9c4ff", "ratio": "4 / 3" },
+        { "color": "#1e1e1e", "ratio": "4 / 5" },
+        { "color": "#fefefe", "ratio": "16 / 9" }
+      ],
+      "case": [
+        { "label": "Discovery", "text": "[What the client needed and why.]" },
+        { "label": "Inner World", "text": "[The positioning and messaging behind the brand.]" },
+        { "label": "Visual World", "text": "[The identity system: logo, colour, and type.]" },
+        { "label": "Execution", "text": "[Where the brand now appears and what changed.]" }
+      ]
+    },
+    {
+      "slug": "we-spray-uk",
+      "title": "We Spray UK",
+      "caption": "New branding project - 2026, consumer goods",
+      "client": "We Spray UK",
+      "services": "Brand identity",
+      "year": "2026",
+      "color": "#d9c4ff",
+      "wall": [
+        { "color": "#d9c4ff", "ratio": "16 / 10" },
+        { "color": "#9643ff", "ratio": "4 / 5" },
+        { "color": "#fefefe", "ratio": "4 / 5" }
+      ],
+      "images": [
+        { "color": "#9643ff", "ratio": "4 / 3" },
+        { "color": "#fefefe", "ratio": "4 / 5" }
+      ],
+      "case": [
+        { "label": "Discovery", "text": "[What the client needed and why.]" },
+        { "label": "Inner World", "text": "[The positioning and messaging behind the brand.]" },
+        { "label": "Visual World", "text": "[The identity system: logo, colour, and type.]" },
+        { "label": "Execution", "text": "[Where the brand now appears and what changed.]" }
+      ]
+    },
+    {
+      "slug": "the-sunday-blueprint",
+      "title": "The Sunday Blueprint",
+      "caption": "New branding project - 2026, media & communications",
+      "client": "The Sunday Blueprint",
+      "services": "Brand identity, web",
+      "year": "2026",
+      "color": "#1e1e1e",
+      "wall": [
+        { "color": "#1e1e1e", "ratio": "16 / 10" },
+        { "color": "#9643ff", "ratio": "4 / 3" },
+        { "color": "#d9c4ff", "ratio": "4 / 3" }
+      ],
+      "images": [
+        { "color": "#9643ff", "ratio": "4 / 3" },
+        { "color": "#d9c4ff", "ratio": "4 / 5" }
+      ],
+      "case": [
+        { "label": "Discovery", "text": "[What the client needed and why.]" },
+        { "label": "Inner World", "text": "[The positioning and messaging behind the brand.]" },
+        { "label": "Visual World", "text": "[The identity system: logo, colour, and type.]" },
+        { "label": "Execution", "text": "[Where the brand now appears and what changed.]" }
+      ]
+    }
+  ]
+}
